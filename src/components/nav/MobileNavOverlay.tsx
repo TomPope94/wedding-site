@@ -16,25 +16,27 @@ export default function MobileNavOverlay({
     >
       <ul className="w-full h-4/5 flex flex-col justify-center items-center text-greyStandard">
         <li className="group flex flex-col items-center justify-center text-2xl hover:text-secondaryDark transition duration-250">
-          <Link href="/products">Wedding day info</Link>
+          <Link href="/info">Wedding day info</Link>
           <div className="w-px h-8 bg-primaryLight my-12 rounded-full" />
         </li>
         <li className="group flex flex-col items-center justify-center text-2xl hover:text-secondaryDark transition duration-250">
-          <Link href="/about">Colour schemes</Link>
+          <Link href="/clothes">What to wear</Link>
           <div className="w-px h-8 bg-primaryLight my-12 rounded-full" />
         </li>
         <li className="group flex flex-col items-center justify-center text-2xl hover:text-secondaryDark transition duration-250">
-          <Link href="/blog">Dietary requirements</Link>
+          <Link href="/menu">Menu</Link>
           <div className="w-px h-8 bg-primaryLight my-12 rounded-full" />
         </li>
         <li className="group flex flex-col items-center justify-center text-2xl hover:text-secondaryDark transition duration-250">
-          <Link href="/blog">Porto advice</Link>
+          <Link href="/porto">Porto advice</Link>
         </li>
       </ul>
       <div
-        className={`px-4 py-2 w-1/2 flex justify-center text-2xl items-center rounded transition duration-250 cursor-pointer text-white bg-secondaryDark hover:bg-white hover:text-primaryDark`}
+        className={`px-4 py-2 w-1/2 flex justify-center text-2xl items-center rounded transition duration-250 cursor-pointer text-white bg-primaryDark border-2 hover:bg-white hover:text-primaryDark hover:border-primaryDark`}
       >
-        <Link href="https://app.snapas.co.uk/auth">RSVP</Link>
+        <Link href="https://docs.google.com/forms/d/1va4_xFzAs3KZSd6rfrbDWwTs5vZdqvVHwp0bBJFE2I0/edit#responses">
+          RSVP
+        </Link>
       </div>
     </div>
   );
