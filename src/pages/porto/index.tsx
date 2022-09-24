@@ -20,7 +20,7 @@ const Porto = () => {
 
       <main>
         <MainNav lightMode={false} overrideColorChange={true} />
-        <div className="absolute inset-0 pt-32 px-4 sm:px-16 md:px-32 xl:px-64">
+        <div className="absolute inset-0 pt-16 sm:pt-32 px-4 sm:px-16 md:px-32 xl:px-64 text-black bg-white">
           <h1 className="mb-4">Need advice on staying in Porto?</h1>
           <p className="mb-4">
             Here we will start to highlight advice on where to stay, good

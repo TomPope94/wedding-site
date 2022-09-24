@@ -16,7 +16,6 @@ export default function MainNav({ ...props }: mainNavProps) {
 
   useEffect(() => {
     if (!props.overrideColorChange) {
-      debugger;
       setLight(atTop);
     }
   }, [atTop, props.overrideColorChange]);

@@ -17,18 +17,16 @@ const Menu = () => {
         ></link>
       </Head>
 
-      <main>
-        <MainNav lightMode={false} overrideColorChange={true} />
-        <div className="absolute inset-0 pt-32 px-4 sm:px-16 md:px-32 xl:px-64">
-          <h1 className="mb-4">Our menu</h1>
-          <h4 className="mb-4">Including dietary advice</h4>
-          <p className="mb-4">
-            We will add the menu here (when it&apos;s agreed) and give guidance
-            on dietary requirements (including advice on how to pace yourself
-            through a Portuguese meal #lotsOfFood!)
-          </p>
-        </div>
-      </main>
+      <MainNav lightMode={false} overrideColorChange={true} />
+      <div className="absolute inset-0 pt-16 sm:pt-32 px-4 sm:px-16 md:px-32 xl:px-64 text-black bg-white">
+        <h1 className="mb-4">Our menu</h1>
+        <h4 className="mb-4">Including dietary advice</h4>
+        <p className="mb-4">
+          We will add the menu here (when it&apos;s agreed) and give guidance on
+          dietary requirements (including advice on how to pace yourself through
+          a Portuguese meal #lotsOfFood!)
+        </p>
+      </div>
     </>
   );
 };

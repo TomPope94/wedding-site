@@ -19,7 +19,7 @@ const Info = () => {
 
       <main>
         <MainNav lightMode={false} overrideColorChange={true} />
-        <div className="absolute inset-0 pt-32 px-4 sm:px-16 md:px-32 xl:px-64">
+        <div className="absolute inset-0 pt-16 sm:pt-32 px-4 sm:px-16 md:px-32 xl:px-64 text-black bg-white">
           <h1 className="mb-4">Info for the wedding day</h1>
           <p className="mb-4">
             As details become more clear, we will fill out an agenda here
