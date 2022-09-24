@@ -3,6 +3,7 @@ import { useScroll } from "hooks";
 import { useState, useEffect } from "react";
 import MobileNavOverlay from "./MobileNavOverlay";
 import BurgerMenu from "./BurgerMenu";
+import Home from "@mui/icons-material/Home";
 
 type mainNavProps = {
   lightMode: boolean;
@@ -32,6 +33,17 @@ export default function MainNav({ ...props }: mainNavProps) {
             light ? "text-white" : "text-primaryDark"
           }`}
         >
+          <li
+            className={`cursor-pointer transition duration-250 ${
+              light
+                ? "text-white hover:text-primaryDark"
+                : "text-primaryDark hover:text-secondaryDark"
+            } `}
+          >
+            <Link href="/">
+              <Home />
+            </Link>
+          </li>
           <li className="group">
             <Link href="/info">Wedding day info</Link>
             <div
@@ -78,7 +90,7 @@ export default function MainNav({ ...props }: mainNavProps) {
         </div>
       </nav>
       <nav
-        className={`fixed w-full flex justify-between items-center top-0 left-0 right-0 px-4 py-8 transition duration-500 z-[100] sm:hidden ${
+        className={`fixed w-1/2 flex justify-between items-center top-0 left-0 right-0 px-4 py-8 transition duration-500 z-[100] sm:hidden ${
           light ? "translate-y-0" : "pb-4 -translate-y-4 bg-white"
         }`}
       >

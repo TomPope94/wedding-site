@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import MainNav from "@/components/nav/MainNav";
+import Link from "next/link";
 
 const Home: NextPage = () => {
   return (
@@ -27,7 +28,18 @@ const Home: NextPage = () => {
               <h1 className="text-8xl md:text-9xl text-center mb-4">
                 Tom & Claudia
               </h1>
-              <h2 className="font-thin">It&apos;s finally happening!</h2>
+              <h2 className="font-thin mb-4">It&apos;s finally happening!</h2>
+              <p className="font-thin italic">
+                At{" "}
+                <a
+                  href="https://quintadapacheca.com/"
+                  className="text-secondaryDark cursor-pointer hover:text-primaryDark"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Quinta da Pacheca
+                </a>
+              </p>
             </div>
             {/* <img
               src="/douro_valley.png"
