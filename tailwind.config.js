@@ -27,6 +27,7 @@ module.exports = {
       green: "#1CA66C",
       greenLight: "#EDF2EF",
       greenDark: "#14734B",
+      pink: "#FFD0F9",
     },
     extend: {
       fontFamily: {

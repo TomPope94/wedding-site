@@ -35,7 +35,7 @@ export default function MobileNavOverlay({
             <div className="w-px h-4 bg-primaryLight my-8 rounded-full bg-opacity-50" />
           </li>
           <li className="group flex flex-col items-center justify-center text-lg sm:text-2xl hover:text-secondaryDark transition duration-250">
-            <Link href="/porto">Porto advice</Link>
+            <Link href="/advice">Porto advice</Link>
           </li>
         </ul>
         <div

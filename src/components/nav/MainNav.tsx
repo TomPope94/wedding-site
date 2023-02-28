@@ -69,7 +69,7 @@ export default function MainNav({ ...props }: mainNavProps) {
             />
           </li>
           <li className="group">
-            <Link href="/porto">Porto advice</Link>
+            <Link href="/advice">Porto advice</Link>
             <div
               className={`scale-x-0 w-full h-px transition duration-250 group-hover:scale-x-100 ${
                 light ? "bg-white" : "bg-primaryDark"
@@ -80,7 +80,7 @@ export default function MainNav({ ...props }: mainNavProps) {
         <div
           className={`px-6 py-2 rounded transition duration-250 cursor-pointer border-2 border-transparent ${
             light
-              ? "bg-white hover:border-white hover:bg-transparent hover:text-white"
+              ? "bg-transparent border-white hover:bg-white hover:text-primaryDark"
               : "bg-primaryDark hover:border-primaryDark hover:bg-transparent hover:text-primaryDark text-white"
           }`}
         >
@@ -90,7 +90,7 @@ export default function MainNav({ ...props }: mainNavProps) {
         </div>
       </nav>
       <nav
-        className={`fixed w-1/2 flex justify-between items-center top-0 left-0 right-0 px-4 py-8 transition duration-500 z-[100] sm:hidden ${
+        className={`fixed w-fit flex justify-between items-center top-0 left-0 right-0 px-4 py-8 transition duration-500 z-[100] sm:hidden ${
           light ? "translate-y-0" : "pb-4 -translate-y-4 bg-white"
         }`}
       >
