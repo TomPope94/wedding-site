@@ -23,33 +23,17 @@ const Porto: NextPage = () => {
       <main>
         <MainNav lightMode={true}/>
         <div className="absolute left-0 right-0 h-screen min-w-[100vw] pt-16 sm:pt-32 px-4 sm:px-16 md:px-32 xl:px-64 text-black bg-white">
-          <div className="absolute inset-0">
             <div
               className="absolute inset-0"
               style={{
                 zIndex: 0,
                 backgroundAttachment: "fixed",
-                backgroundImage: "url(/porto_river_bg.png)",
+                backgroundImage: "url(/porto_view_from_river.png)",
                 backgroundRepeat: "no-repeat",
                 backgroundPositionY: "center",
                 backgroundSize: "cover",
               }}
             ></div>
-            <div className="absolute inset-0 flex justify-center z-[1]">
-              <h1 className="text-[8rem] lg:text-[20rem] xl:text-[30rem] mt-56 lg:mt-48 text-pink">PORTO</h1>
-            </div>
-            <div
-              className="absolute inset-0"
-              style={{
-                zIndex: 2,
-                backgroundAttachment: "fixed",
-                backgroundImage: "url(/porto_river_fg.png)",
-                backgroundRepeat: "no-repeat",
-                backgroundPositionY: "center",
-                backgroundSize: "cover",
-              }}
-            ></div>
-          </div>
           <div 
             style = {{
               position: "absolute",

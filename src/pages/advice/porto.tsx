@@ -128,24 +128,40 @@ const PortoDetail: NextPage = () => {
       <main>
         <MainNav lightMode={false} overrideColorChange={true} />
         <div className="absolute inset-0 text-primaryDark">
-          <div
-            className="h-1/2"
-            style={{
-              zIndex: 0,
-              backgroundAttachment: "fixed",
-              backgroundImage: "url(/porto_river_title.png)",
-              backgroundRepeat: "no-repeat",
-              backgroundPositionY: "center",
-              backgroundSize: "cover",
-            }}
-          />
-          <Link href="/advice">
-            <div className="m-4 xl:ml-64 flex text-primaryDark hover:text-white cursor-pointer">
-              <ArrowBack />
-              <h3>Back to advice</h3>
+          <div className="absolute inset-0">
+            <div
+              className="absolute inset-0"
+              style={{
+                zIndex: 0,
+                backgroundAttachment: "fixed",
+                backgroundImage: "url(/porto_river_bg.png)",
+                backgroundRepeat: "no-repeat",
+                backgroundPositionY: "center",
+                backgroundSize: "cover",
+              }}
+            ></div>
+            <div className="absolute inset-0 flex justify-center z-[1]">
+              <h1 className="text-[8rem] lg:text-[20rem] xl:text-[30rem] mt-56 lg:mt-48 text-pink">PORTO</h1>
             </div>
-          </Link>
-          <div className="xl:px-64">
+            <div
+              className="absolute inset-0"
+              style={{
+                zIndex: 2,
+                backgroundAttachment: "fixed",
+                backgroundImage: "url(/porto_river_fg.png)",
+                backgroundRepeat: "no-repeat",
+                backgroundPositionY: "center",
+                backgroundSize: "cover",
+              }}
+            ></div>
+          </div>
+          <div className="absolute top-[100vh] xl:px-64">
+            <Link href="/advice">
+              <div className="m-4 xl:ml-64 flex text-primaryDark hover:text-white cursor-pointer">
+                <ArrowBack />
+                <h3>Back to advice</h3>
+              </div>
+            </Link>
             {
               infoDetails.map((info) => (
                 <LocationInfo key={info.location} location={info.location} description={info.description} reverse={info.reverse} image={info.image} />

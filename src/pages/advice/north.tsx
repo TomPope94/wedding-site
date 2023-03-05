@@ -70,13 +70,14 @@ const North: NextPage = () => {
         <MainNav lightMode={false} overrideColorChange={true} />
         <div className="absolute inset-0 text-primaryDark">
           <div
-            className="h-1/2"
+            className="h-[95vh]"
             style={{
               zIndex: 0,
               backgroundAttachment: "fixed",
-              backgroundImage: "url(/porto_river_title.png)",
+              backgroundImage: "url(/sea_view.png)",
               backgroundRepeat: "no-repeat",
               backgroundPositionY: "center",
+              backgroundPositionX: "center",
               backgroundSize: "cover",
             }}
           />
