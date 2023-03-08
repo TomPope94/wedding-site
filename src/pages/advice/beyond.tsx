@@ -51,7 +51,7 @@ const Beyond: NextPage = () => {
             style={{
               zIndex: 0,
               backgroundAttachment: "fixed",
-              backgroundImage: "url(https://tomandclaudiaweddingassets.s3.eu-west-1.amazonaws.com/lisbon_tram.jpg)",
+              backgroundImage: "url(https://tomandclaudiaweddingassets.s3.eu-west-1.amazonaws.com/lisbon_tram.jpeg)",
               backgroundRepeat: "no-repeat",
               backgroundPositionY: "center",
               backgroundPositionX: "center",

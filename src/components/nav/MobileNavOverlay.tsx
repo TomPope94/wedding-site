@@ -23,25 +23,25 @@ export default function MobileNavOverlay({
         </div>
         <ul className="w-full flex flex-col items-center text-greyStandard">
           <li className="group flex flex-col items-center justify-center text-lg sm:text-2xl hover:text-secondaryDark transition duration-250">
+            <Link href="/what-to-expect">What to expect</Link>
+            <div className="w-px h-4 bg-primaryLight my-8 rounded-full bg-opacity-50" />
+          </li>
+          <li className="group flex flex-col items-center justify-center text-lg sm:text-2xl hover:text-secondaryDark transition duration-250">
             <Link href="/info">Wedding day info</Link>
             <div className="w-px h-4 bg-primaryLight my-8 rounded-full bg-opacity-50" />
           </li>
           <li className="group flex flex-col items-center justify-center text-lg sm:text-2xl hover:text-secondaryDark transition duration-250">
-            <Link href="/clothes">What to wear</Link>
+            <Link href="/gifts">Gifts</Link>
             <div className="w-px h-4 bg-primaryLight my-8 rounded-full bg-opacity-50" />
           </li>
           <li className="group flex flex-col items-center justify-center text-lg sm:text-2xl hover:text-secondaryDark transition duration-250">
-            <Link href="/menu">Menu</Link>
-            <div className="w-px h-4 bg-primaryLight my-8 rounded-full bg-opacity-50" />
-          </li>
-          <li className="group flex flex-col items-center justify-center text-lg sm:text-2xl hover:text-secondaryDark transition duration-250">
-            <Link href="/advice">Porto advice</Link>
+            <Link href="/advice">Portugal advice</Link>
           </li>
         </ul>
         <div
           className={`absolute bottom-4 px-4 py-2 w-1/2 flex justify-center text-2xl items-center rounded transition duration-250 cursor-pointer text-white bg-primaryDark border-2 hover:bg-white hover:text-primaryDark hover:border-primaryDark`}
         >
-          <Link href="https://docs.google.com/forms/d/1va4_xFzAs3KZSd6rfrbDWwTs5vZdqvVHwp0bBJFE2I0/edit#responses">
+          <Link href="https://forms.gle/i3Z5etV6FaAs97RRA">
             RSVP
           </Link>
         </div>

@@ -53,7 +53,7 @@ export default function MainNav({ ...props }: mainNavProps) {
             />
           </li>
           <li className="group">
-            <Link href="/clothes">What to wear</Link>
+            <Link href="/what-to-expect">What to expect</Link>
             <div
               className={`scale-x-0 w-full h-px transition duration-250 group-hover:scale-x-100 ${
                 light ? "bg-white" : "bg-primaryDark"
@@ -61,7 +61,7 @@ export default function MainNav({ ...props }: mainNavProps) {
             />
           </li>
           <li className="group">
-            <Link href="/menu">Menu</Link>
+            <Link href="/gifts">Gifts</Link>
             <div
               className={`scale-x-0 w-full h-px transition duration-250 group-hover:scale-x-100 ${
                 light ? "bg-white" : "bg-primaryDark"
@@ -69,7 +69,7 @@ export default function MainNav({ ...props }: mainNavProps) {
             />
           </li>
           <li className="group">
-            <Link href="/advice">Porto advice</Link>
+            <Link href="/advice">Portugal advice</Link>
             <div
               className={`scale-x-0 w-full h-px transition duration-250 group-hover:scale-x-100 ${
                 light ? "bg-white" : "bg-primaryDark"
@@ -84,7 +84,7 @@ export default function MainNav({ ...props }: mainNavProps) {
               : "bg-primaryDark hover:border-primaryDark hover:bg-transparent hover:text-primaryDark text-white"
           }`}
         >
-          <Link href="https://docs.google.com/forms/d/1va4_xFzAs3KZSd6rfrbDWwTs5vZdqvVHwp0bBJFE2I0/edit#responses">
+          <Link href="https://forms.gle/i3Z5etV6FaAs97RRA">
             RSVP
           </Link>
         </div>
