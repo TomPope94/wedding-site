@@ -14,7 +14,7 @@ const PortoDetail: NextPage = () => {
         "Also the location of our wedding… picked for a reason!"
       ],
       reverse: false,
-      image: "/douro_river.jpeg"
+      image: "https://tomandclaudiaweddingassets.s3.eu-west-1.amazonaws.com/douro_river.jpeg"
     },
     {
       location: "Livraria Lello",
@@ -23,7 +23,7 @@ const PortoDetail: NextPage = () => {
         "This is an iconic bookshop with real Harry Potter vibes"
       ],
       reverse: true,
-      image: "/livraria_lello.jpeg"
+      image: "https://tomandclaudiaweddingassets.s3.eu-west-1.amazonaws.com/livraria_lello.jpeg"
     },
     {
       location: "São Bento Station",
@@ -33,7 +33,7 @@ const PortoDetail: NextPage = () => {
         "Worth a visit even if you do not plan to leave Porto; particularly if you love ‘azulejos’ as much as I do!"
       ],
       reverse: false,
-      image: "/sao_bento_station.jpeg"
+      image: "https://tomandclaudiaweddingassets.s3.eu-west-1.amazonaws.com/sao_bento_station.jpeg"
     },
     {
       location: "Luís I Bridge",
@@ -43,7 +43,7 @@ const PortoDetail: NextPage = () => {
         "At its construction, it was one of the longest of its type in the world. We would recommend walking across the top-deck of the bridge for mega views of the Douro river, Porto and Vila da Nova Gaia."
       ],
       reverse: true,
-      image: "/ponte_luis_bridge.jpeg"
+      image: "https://tomandclaudiaweddingassets.s3.eu-west-1.amazonaws.com/ponte_luis_bridge.jpeg"
     },
     {
       location: "Ribeira Square",
@@ -53,7 +53,7 @@ const PortoDetail: NextPage = () => {
         "Make sure you look closely at the restaurants you pick if you are looking for authentic Portuguese food!"
       ],
       reverse: false,
-      image: "/ribeira_square.jpeg"
+      image: "https://tomandclaudiaweddingassets.s3.eu-west-1.amazonaws.com/ribeira_square.jpeg"
     },
     {
       location: "Monastery of Serra do Pilar",
@@ -62,7 +62,7 @@ const PortoDetail: NextPage = () => {
         "It is a beautiful monastery with a stunning view of Porto and the Douro river. Again, another UNESCO world heritage site",
       ],
       reverse: true,
-      image: "/monastery_serra_pilar.jpeg"
+      image: "https://tomandclaudiaweddingassets.s3.eu-west-1.amazonaws.com/monastery_serra_pilar.jpeg"
     },
     {
       location: "Crystal Palace Gardens",
@@ -71,7 +71,7 @@ const PortoDetail: NextPage = () => {
         "On a clear day, there are beautiful views to digest and generally, a very tranquil place."
       ],
       reverse: false,
-      image: "/crystal_palace_gardens.jpeg"
+      image: "https://tomandclaudiaweddingassets.s3.eu-west-1.amazonaws.com/crystal_palace_gardens.jpeg"
     },
     {
       location: "Churches, Cathedrals and Towers",
@@ -79,7 +79,7 @@ const PortoDetail: NextPage = () => {
         "I can’t list them all but there are so many beautiful buildings all over Porto including Porto Cathedral, Monument Church of St Francis, Igreja do Carmo, Bolsa Palace and Clerigos Church and Tower."
       ],
       reverse: true,
-      image: "/porto_church.jpeg"
+      image: "https://tomandclaudiaweddingassets.s3.eu-west-1.amazonaws.com/porto_church.jpeg"
     },
     {
       location: "‘Miradouros’",
@@ -88,7 +88,7 @@ const PortoDetail: NextPage = () => {
         "These are established viewpoints that show you the best the city has to offer."
       ],
       reverse: false,
-      image: "/porto_view.jpeg"
+      image: "https://tomandclaudiaweddingassets.s3.eu-west-1.amazonaws.com/porto_view.jpeg"
     },
     {
       location: "Museums",
@@ -96,7 +96,7 @@ const PortoDetail: NextPage = () => {
         "I won’t list all of the museums but as you can imagine, there are plenty including the Portuguese Centre of Photography, the Tram Museum and for those who are FC Porto fans, there is an FC Porto Museum too."
       ],
       reverse: true,
-      image: "/porto_henry_navigator.jpeg"
+      image: "https://tomandclaudiaweddingassets.s3.eu-west-1.amazonaws.com/porto_henry_navigator.jpeg"
     },
     {
       location: "Beaches",
@@ -106,7 +106,7 @@ const PortoDetail: NextPage = () => {
         "About a 1-hour walk from the centre of Porto or several modes of transport to get there!"
       ],
       reverse: false,
-      image: "/porto_beach.jpeg"
+      image: "https://tomandclaudiaweddingassets.s3.eu-west-1.amazonaws.com/porto_beach.jpeg"
     },
   ]
 
@@ -134,7 +134,7 @@ const PortoDetail: NextPage = () => {
               style={{
                 zIndex: 0,
                 backgroundAttachment: "fixed",
-                backgroundImage: "url(/porto_river_bg.png)",
+                backgroundImage: "url(https://tomandclaudiaweddingassets.s3.eu-west-1.amazonaws.com/porto_river_bg.png)",
                 backgroundRepeat: "no-repeat",
                 backgroundPositionY: "center",
                 backgroundSize: "cover",
@@ -148,7 +148,7 @@ const PortoDetail: NextPage = () => {
               style={{
                 zIndex: 2,
                 backgroundAttachment: "fixed",
-                backgroundImage: "url(/porto_river_fg.png)",
+                backgroundImage: "url(https://tomandclaudiaweddingassets.s3.eu-west-1.amazonaws.com/porto_river_fg.png)",
                 backgroundRepeat: "no-repeat",
                 backgroundPositionY: "center",
                 backgroundSize: "cover",

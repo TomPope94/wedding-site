@@ -15,7 +15,7 @@ const Beyond: NextPage = () => {
         "If staying in Lisbon for a substantial amount of time, we would recommend a day trip to Sintra or Cascais!"
       ],
       reverse: false,
-      image: "/lisbon.jpeg"
+      image: "https://tomandclaudiaweddingassets.s3.eu-west-1.amazonaws.com/lisbon.jpeg"
     },
     {
       location: "Algarve",
@@ -24,7 +24,7 @@ const Beyond: NextPage = () => {
         "As many of you know, the Algarve has all the beaches and is a very popular and touristy area. We have never visited but just to manage your expectations, it is far from Porto!"
       ],
       reverse: true,
-      image: "/algarve.webp"
+      image: "https://tomandclaudiaweddingassets.s3.eu-west-1.amazonaws.com/algarve.webp"
     },
   ]
 
@@ -51,7 +51,7 @@ const Beyond: NextPage = () => {
             style={{
               zIndex: 0,
               backgroundAttachment: "fixed",
-              backgroundImage: "url(/lisbon_tram.jpg)",
+              backgroundImage: "url(https://tomandclaudiaweddingassets.s3.eu-west-1.amazonaws.com/lisbon_tram.jpg)",
               backgroundRepeat: "no-repeat",
               backgroundPositionY: "center",
               backgroundPositionX: "center",

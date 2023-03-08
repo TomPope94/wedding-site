@@ -14,12 +14,12 @@ export default function LocationInfo ({location, description, reverse, image}: L
         </h1>
         {
           description.map((desc) => (
-            <>
-              <p key={desc[0]} className="text-greyStandard" >
+            <div key={desc.substring(0, 10)}>
+              <p className="text-greyStandard" >
                 {desc}
               </ p>
               <br />
-            </>
+            </ div>
           ))
         }
       </div>

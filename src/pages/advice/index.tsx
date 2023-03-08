@@ -28,7 +28,7 @@ const Porto: NextPage = () => {
               style={{
                 zIndex: 0,
                 backgroundAttachment: "fixed",
-                backgroundImage: "url(/porto_view_from_river.png)",
+                backgroundImage: "url(https://tomandclaudiaweddingassets.s3.eu-west-1.amazonaws.com/porto_view_from_river.png)",
                 backgroundRepeat: "no-repeat",
                 backgroundPositionY: "center",
                 backgroundSize: "cover",

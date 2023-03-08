@@ -40,15 +40,10 @@ const Home: NextPage = () => {
                 </a>
               </p>
             </div>
-            {/* <img
-              src="/douro_valley.png"
-              alt="Douro valley landscape"
-              className="h-full w-full"
-            /> */}
             <div
               className="absolute inset-0"
               style={{
-                backgroundImage: "url(/douro_valley.png)",
+                backgroundImage: "url(https://tomandclaudiaweddingassets.s3.eu-west-1.amazonaws.com/douro_valley.png)",
                 backgroundRepeat: "no-repeat",
                 backgroundPositionY: "center",
               }}

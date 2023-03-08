@@ -15,7 +15,7 @@ const North: NextPage = () => {
         "We also went on a short boat trip in the Douro and were able to enjoy an amazing three-course lunch with amazing views."
       ],
       reverse: false,
-      image: "/douro_wine.jpeg"
+      image: "https://tomandclaudiaweddingassets.s3.eu-west-1.amazonaws.com/douro_wine.jpeg"
     },
     {
       location: "Vila do Conde",
@@ -23,7 +23,7 @@ const North: NextPage = () => {
         "This is a small sea side town with beaches. Very quiet and quaint but a lovely place to enjoy the sun. It is under an hour away from Porto via the metro/trains."
       ],
       reverse: true,
-      image: "/vila_do_conde.jpeg"
+      image: "https://tomandclaudiaweddingassets.s3.eu-west-1.amazonaws.com/vila_do_conde.jpeg"
     },
     {
       location: "Braga and Guimarães",
@@ -31,7 +31,7 @@ const North: NextPage = () => {
         "Braga and ‘gummy bears’ (Guimarães, according to Tom’s pronunciation) is a doable day trip away from Porto.  Guimarães is considered to be the birth place of Portugal and has a castle and palace. As you can imagine, lots of history here! Braga is the third largest city of Portugal but it is not crowded as Lisbon and Porto. Lots of fine monuments and a very chill vibe!"
       ],
       reverse: false,
-      image: "/guimaraes.jpeg"
+      image: "https://tomandclaudiaweddingassets.s3.eu-west-1.amazonaws.com/guimaraes.jpeg"
     },
     {
       location: "Coimbra",
@@ -39,7 +39,7 @@ const North: NextPage = () => {
         "Coimbra is Portugal’s former capital and home to a preserved medieval old town and a historic university. In summary: Portugal’s Oxford. Again, a day trip from Porto is feasible!"
       ],
       reverse: true,
-      image: "/coimbra.webp"
+      image: "https://tomandclaudiaweddingassets.s3.eu-west-1.amazonaws.com/coimbra.webp"
     },
     {
       location: "Aveiro",
@@ -47,7 +47,7 @@ const North: NextPage = () => {
         "A west coast city, also described as the Venice of Portugal. As we have been to both, and to manage your expectations, it is not quite the same! The common factor between the two are the canals and colourful canal boats! Another day-trip from Porto if you are up for it!"
       ],
       reverse: false,
-      image: "/aveiro.jpeg"
+      image: "https://tomandclaudiaweddingassets.s3.eu-west-1.amazonaws.com/aveiro.jpeg"
     },
   ]
 
@@ -74,7 +74,7 @@ const North: NextPage = () => {
             style={{
               zIndex: 0,
               backgroundAttachment: "fixed",
-              backgroundImage: "url(/sea_view.png)",
+              backgroundImage: "url(https://tomandclaudiaweddingassets.s3.eu-west-1.amazonaws.com/sea_view.png)",
               backgroundRepeat: "no-repeat",
               backgroundPositionY: "center",
               backgroundPositionX: "center",
