@@ -11,7 +11,7 @@ const Menu = () => {
       reverse: false,
       image: "https://tomandclaudiaweddingassets.s3.eu-west-1.amazonaws.com/reindeer_farm.jpeg",
       reference: "rudolph",
-      progress: 0
+      progress: 10
     },
     {
       location: "3km Sleigh Ride",
@@ -29,7 +29,7 @@ const Menu = () => {
       reverse: false,
       image: "https://tomandclaudiaweddingassets.s3.eu-west-1.amazonaws.com/aurora_campfire.jpeg",
       reference: "fire",
-      progress: 0
+      progress: 10
     },
     {
       location: "15km Husky Safari",
@@ -38,7 +38,7 @@ const Menu = () => {
       reverse: false,
       image: "https://tomandclaudiaweddingassets.s3.eu-west-1.amazonaws.com/husky_safari.jpeg",
       reference: "husky",
-      progress: 0
+      progress: 25
     },
     {
       location: "Cross-country Skiing",
@@ -56,7 +56,7 @@ const Menu = () => {
       reverse: false,
       image: "https://tomandclaudiaweddingassets.s3.eu-west-1.amazonaws.com/finland_food.jpeg",
       reference: "food",
-      progress: 0
+      progress: 15
     },
     {
       location: "Aurora Snow Train",
@@ -65,7 +65,7 @@ const Menu = () => {
       reverse: false,
       image: "https://tomandclaudiaweddingassets.s3.eu-west-1.amazonaws.com/snowtrain.jpeg",
       reference: "train",
-      progress: 0
+      progress: 30
     },
     {
       location: "Snowmobile Safari",
@@ -74,7 +74,7 @@ const Menu = () => {
       reverse: false,
       image: "https://tomandclaudiaweddingassets.s3.eu-west-1.amazonaws.com/snowmobile.jpeg",
       reference: "snowmobile",
-      progress: 0
+      progress: 45
     },
     {
       location: "Snowshoe Hike",
@@ -83,7 +83,7 @@ const Menu = () => {
       reverse: false,
       image: "https://tomandclaudiaweddingassets.s3.eu-west-1.amazonaws.com/snowshoe.avif",
       reference: "hike",
-      progress: 0
+      progress: 50
     },
   ]
 
