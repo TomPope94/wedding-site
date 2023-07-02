@@ -45,7 +45,7 @@ const DressAdvice = () => {
             </li>
           </ul>
           <p className="mt-4 mb-4">
-            It is one of the main stations on the Metro line or a fairly short Uber/taxi ride from the center of Porto. If you would like advice on how to get there then please don&apos;t hesitate to reach out!
+            It is one of the main stations on the Metro line or a fairly short Uber/taxi ride from the center of Porto. If you would like advice on how to get there then please don&apos;t hesitate in reaching out to us!
           </p>
           <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d827.801343970345!2d-8.582827362190432!3d41.16071445432507!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1687901106309!5m2!1sen!2suk" width="100%" height="300" loading="lazy"></iframe>
           <p className="mt-4 mb-4">
@@ -60,11 +60,16 @@ const DressAdvice = () => {
             </li>
           </ul>
           <p className="mt-4 mb-4">
-            If you are not getting the coach, there is also car parking available at the venue Quinta da Pacheca. The coach should be arriving at the venue around 3pm for the ceremony to start shortly after.
+            If you are not getting the coach and driving to the venue, please park in the available car park. This is your first left after entering through the vineyards gates - do not go right to the end of the drive as you will be asked to turn back around. The coach should be arriving at the venue around 3pm for the ceremony to start shortly after so please plan to also be there for 3pm. 
           </p>
           <h2 className="mt-4 mb-4">Arrival and check-in</h2>
-          <p className="mt-4 mb-4">As soon as you arrive at the venue, the venue will take your bags and store them. You will then be asked to proceed to the ceremony area to await Claudia’s arrival! As mentioned above, please come dressed for the wedding as there will be no time to get changed and your rooms will not be ready.</p>
-          <p className="mt-4 mb-4">We ask that you check-in during cocktail hour - you don’t have to all rush and do this! The cocktail session will be a couple of hours so do make sure you relax, enjoy the drink and food as well as the music! You may be asked to share ID at check-in so please bring your passport!</p>
+          <p className="mt-4 mb-4">
+            As soon as you arrive at the venue, the venue will take your bags and store them. You will then be asked to proceed to the ceremony area to await Claudia&apos;s arrival! 
+          </p>
+          <p className="mt-4 mb-4 font-bold underline"> Please come dressed for the wedding as there will be no time to get changed and your rooms will not be ready.</p>
+          <p className="mt-4 mb-4">
+            We ask that you check-in during the cocktail hour (which is longer than an hour!) - you don’t have to all rush and do this as soon as the ceremony is over! Please do make sure you relax, enjoy the drink and food as well as the music! You may be asked to share ID at check-in so please bring your passport! We are also checking if tourist tax applies - this will be ~5 euros but we will update you when we know! If you are in another hotel, do not worry, we will reach out with specific details!
+          </p>
           <h2 className="mt-4 mb-4">The next day</h2>
           <p className="mt-4 mb-4">The room fee included breakfast so please enjoy it the following morning!</p>
           <p className="mt-4 mb-4">Please check-out before 11:30AM as the coach will be ready to pick you up from the venue at 12:00PM and take you back to the pick-up location above.</p>
@@ -72,10 +77,10 @@ const DressAdvice = () => {
           <p className="mt-4 mb-4">For those that need a number on the day for any queries, please reach out to:</p>
           <ul className="pb-32">
             <li>
-              Tom: 07305305349
+              Tom: 0044 7305305349
             </li>
             <li>
-              Sabrina: 
+              Sabrina: 0044 7903753663
             </li>
           </ul>
         </div>
